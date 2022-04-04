@@ -1,23 +1,44 @@
 {
-  "name": "front",
-  "version": "0.0.0",
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "Blog para requerimiento de empleo",
+  "productName": "Blog App",
+  "author": "MateoB97 <mateo.bustamante9730@gmail.com>",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 5050",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "vue": "^3.2.31",
-    "vue-router": "^4.0.14"
+    "@quasar/extras": "^1.0.0",
+    "@websanova/vue-auth": "^4.1.12",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "quasar": "^1.0.0",
+    "vue-auth": "^2.1.5"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@vitejs/plugin-vue": "^2.3.1",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "eslint": "^8.5.0",
-    "eslint-plugin-vue": "^8.2.0",
-    "prettier": "^2.5.1",
-    "vite": "^2.9.1"
+    "@quasar/app": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "eslint-webpack-plugin": "^2.4.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
   }
 }
